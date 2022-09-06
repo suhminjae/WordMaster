@@ -4,7 +4,7 @@
 ```
 IDE:Intellij
 ```
-
+<img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/IDE.png?raw=true" width="500">
 ```
 4번을 선택했을 경우
 ```
