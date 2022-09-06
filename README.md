@@ -23,7 +23,7 @@ IDE:Intellij
 
 <img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/종료.png?raw=true" width="500">
 
-###소감
+소감
 ```
 아직 초반이지만 프로젝트를 진행하는 것이 재미있었고, 
 앞으로 진행 할 프로젝트가 기대가 됩니다. 
