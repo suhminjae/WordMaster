@@ -11,3 +11,4 @@
 
 0번을 선택했을 경우
 
+<img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/종료.png?raw=true">
