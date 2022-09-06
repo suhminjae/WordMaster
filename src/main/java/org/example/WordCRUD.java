@@ -33,7 +33,7 @@ import java.util.Scanner;
         public void addWord() {
             Word one = (Word) add();
             list.add(one);
-            System.out.println("새 단어가 단어장에 추가되었습니다. ");
+            System.out.println("\n새 단어가 단어장에 추가되었습니다. ");
         }
 
         @Override
