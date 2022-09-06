@@ -20,10 +20,10 @@ import java.util.Scanner;
         @Override
         public Object add() {
             // TODO Auto-generated method stub
-            System.out.print("* => 난이도(1,2,3) & 새 단어 입력 : ");
+            System.out.print("=> 난이도(1,2,3) & 새 단어 입력 : ");
             int level = s.nextInt();
             String word = s.nextLine();
-            System.out.print("* 뜻 입력 : ");
+            System.out.print("뜻 입력 : ");
             String meaning = s.nextLine();
 
 
@@ -33,7 +33,7 @@ import java.util.Scanner;
         public void addWord() {
             Word one = (Word) add();
             list.add(one);
-            System.out.println("\n새 단어가 단어장에 추가되었습니다. ");
+            System.out.println("\n새 단어가 단어장에 추가되었습니다.\n");
         }
 
         @Override
@@ -63,7 +63,7 @@ import java.util.Scanner;
                 System.out.print((i + 1) + " ");
                 System.out.println(list.get(i).toString());
             }
-            System.out.println("----------------------------------------------");
+            System.out.println("----------------------------------------------\n");
         }
     }
 
