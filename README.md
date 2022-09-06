@@ -2,6 +2,10 @@
 ## __WordMaster__
 
 ```
+IDE:Intellij
+```
+
+```
 4번을 선택했을 경우
 ```
 
