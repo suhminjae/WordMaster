@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class WordManager {
@@ -38,7 +39,8 @@ public class WordManager {
         return s.nextInt();
     }
 
-    public void start() {
+    public void start() throws IOException {
+        wordCRUD.loadFile();
         System.out.println("*** 영단어 마스터 ***\n");
         while (true) {
             int menu = selectMenu();
@@ -49,10 +51,23 @@ public class WordManager {
             }
             if (menu == 4) {
                 //create
-                wordCRUD.addWord();
+                wordCRUD.addItem();
             } else if (menu == 1) {
                 //list
                 wordCRUD.listAll();
+            }
+            else if(menu==2){
+                wordCRUD.searchLevel();
+            }else if(menu==3){
+                wordCRUD.searchWord();
+            }else if (menu == 5) { //update
+                //list
+                wordCRUD.updateItem();
+            } else if (menu == 6) { //delete
+
+                wordCRUD.deleteItem();
+            } else if (menu == 7){
+                wordCRUD.saveFile();
             }
         }
     }
