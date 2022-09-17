@@ -18,3 +18,27 @@
 ```
 
 <img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/종료.png?raw=true" width="500">
+
+```
+2번을 선택했을 경우
+```
+
+```
+3번을 선택했을 경우
+```
+
+```
+5번을 선택했을 경우
+```
+
+```
+6번을 선택했을 경우
+```
+
+```
+7번을 선택했을 경우
+```
+
+```
+1번을 선택했을 경우(파일 로드)
+```
