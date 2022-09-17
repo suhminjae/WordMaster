@@ -44,7 +44,6 @@ public class WordManager {
         while (true) {
             System.out.println("*** 영단어 마스터 ***\n");
             int menu = selectMenu();
-            System.out.println();
             if (menu == 0) {
                 System.out.print("프로그램 종료! 다음에 만나요~");
                 break;
