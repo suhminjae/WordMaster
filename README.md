@@ -49,6 +49,8 @@
 
 <img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/7번.png?raw=true" width="500">
 
+<img src="https://github.com/suhminjae/WordMaster/blob/master/screenshot/image/텍스트파일.png?raw=true" width="500">
+
 ```
 1번을 선택했을 경우(파일 로드)
 ```
