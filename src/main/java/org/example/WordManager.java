@@ -41,8 +41,8 @@ public class WordManager {
 
     public void start() throws IOException {
         wordCRUD.loadFile();
-        System.out.println("*** 영단어 마스터 ***\n");
         while (true) {
+            System.out.println("*** 영단어 마스터 ***\n");
             int menu = selectMenu();
             System.out.println();
             if (menu == 0) {
